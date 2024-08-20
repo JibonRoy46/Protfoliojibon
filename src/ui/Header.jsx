@@ -53,7 +53,7 @@ const Header = () => {
                   animate={{ opacity:1}}
                   transition={{delay: 0.5}}
                   
-                  href="" 
+                  href="/" 
                   target="blank" 
                   className="px-4 rounded-md font-medium text-designColor 
                 text-[13px tracking-wide border border-designColor hover:bg-hoverColor duration-200">

@@ -46,7 +46,7 @@ const Experience = () => {
         setworkAmazon(true)
     }
     return (
-        <Container  id="experience" className="max-w-3xl mx-auto py-10 lg:py-24 gap-16">
+        <Container  id="experience" className="max-w-3xl mx-auto py-10 lg:py-24 gap-16 xl:px-28">
             <SectionTitle  title="Experience"/>
             {/* Button setup */}
             <div className="w-full mt-10 flex flex-col md:w-full md:flex-row gap-16">
