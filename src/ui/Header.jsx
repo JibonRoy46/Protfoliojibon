@@ -24,8 +24,10 @@ const Header = () => {
   return (
     <div className="h-16 shadow-lg shadow-designColor/20 px-4 lg:px-0 sticky top-0 z-50 bg-primaryColor xl:px-24">
         <div className=" max-w-[1440px] mx-auto flex items-center h-full justify-between">
-            <img src={logo} alt="logo" className="w-14  opacity-75 hover:opacity-100
+            <Link rel="stylesheet" href="/">
+              <img src={logo} alt="logo" className="w-14  opacity-75 hover:opacity-100
             duration-200 cursor-pointer" />
+             </Link>
             <div className="hidden md:inline-flex items-center gap-7">
                 <div className="flex text-base gap-7">
                     {navigation?.map((item)=>(

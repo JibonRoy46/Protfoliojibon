@@ -4,12 +4,14 @@ import AmazonImage from "../assets/image/amazonredesign.jpg"
 import Cyber from "../assets/image/cybercafe-cyber-security.webp"
 import Shoop from "../assets/image/Shoop 4.png"
 import ProjectLink from "./ProjectLink";
+import { TbBrandGithub } from "react-icons/tb";
+import { RxOpenInNewWindow } from "react-icons/rx";
 
 const Project = () => {
     return (
         <Container id="project" className=" mx-auto py-10 xl:px-28 ">
             <SectionTitle title="Some Things I have Built"/>
-            <div className="mt-10 flex flex-col items-center justify-center gap-28">
+            <div className="mt-10 flex flex-col items-center justify-center gap-32">
                 <div className="flex flex-col lg:flex-row gap-5">
                     <a href="" className=" w-full lg:w-1/2 relative group rounded-lg overflow-hidden" >
                         <img src={AmazonImage} alt="AmazonImage" className="w-full h-full object-cover group-hover:scale-110 duration-300"/>
@@ -32,7 +34,19 @@ const Project = () => {
                             <li>Express js</li>
                             <li>Vercel Deployment</li>
                         </ul>
-                        <ProjectLink/>
+                        <div className="text-2xl flex items-center gap-5">
+                            <a href="https://github.com/JibonRoy46/mern-amazon"
+                                target="blank"
+                                className="hover:text-designColor">
+                                <TbBrandGithub/>
+                            </a>
+                        
+                            <a href=""
+                                target="blank"
+                                className="hover:text-designColor">
+                                <RxOpenInNewWindow  />
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className="flex flex-col lg:flex-row-reverse gap-5">
@@ -57,7 +71,19 @@ const Project = () => {
                             <li>Express js</li>
                             <li>Vercel Deployment</li>
                         </ul>
-                        <ProjectLink/>
+                        <div className="text-2xl flex items-center gap-5">
+                            <a href="https://github.com/JibonRoy46"
+                                target="blank"
+                                className="hover:text-designColor">
+                                <TbBrandGithub/>
+                            </a>
+                        
+                            <a href=""
+                                target="blank"
+                                className="hover:text-designColor">
+                                <RxOpenInNewWindow  />
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className="flex flex-col lg:flex-row gap-5">
@@ -82,7 +108,19 @@ const Project = () => {
                             <li>Express js</li>
                             <li>Vercel Deployment</li>
                         </ul>
-                        <ProjectLink link=""/>
+                        <div className="text-2xl flex items-center gap-5">
+                        <a href="https://github.com/JibonRoy46"
+                            target="blank"
+                            className="hover:text-designColor">
+                            <TbBrandGithub/>
+                        </a>
+                    
+                        <a href=""
+                            target="blank"
+                            className="hover:text-designColor">
+                            <RxOpenInNewWindow  />
+                        </a>
+                    </div>
                     </div>
                 </div>
             </div>

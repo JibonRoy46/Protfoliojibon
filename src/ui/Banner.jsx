@@ -1,7 +1,7 @@
 import  Container  from "./Container";
 import { motion } from 'framer-motion';
 import Typewriter from 'typewriter-effect';
-
+import { Vortex } from "./aceternity/Vortex";
 
 
 
@@ -12,9 +12,14 @@ const Banner = () => {
          'Love to learn new ideas'
     ]
     return (
-        <Container 
+        <div className=" flex items-start w-full mx-auto rounded-md h-full overflow-hidden max-h-[900px] ">
+        <Vortex
+          
+          className=" items-start  flex-col justify-center  w-full h-full mr-10 max-w-[1600px] "
+        >
+          <Container 
             id="home" 
-            className="py-10 md:py-24 flex flex-col gap-4 lg:gap-8 md:px-10 xl:px-24">
+            className="md:py-24 flex flex-col gap-4 lg:gap-8 md:px-10 xl:px-24">
             <motion.h3
                   initial={{y: -10, opacity:0}}
                   animate={{y: 0, opacity:1}}
@@ -30,7 +35,7 @@ const Banner = () => {
                 className="text-4xl lg:text-6xl font-bold text-[#CCD6F6]"
                 >
                 Jibon Roy.
-                <span className="text-darkText font-semibold mt-2 lg:mt-4 flex">
+                <span className="text-darkText font-semibold mt-2 lg:mt-4 flex  ">
                     <Typewriter options={{
                         strings:stringsArray,
                         autoStart:true,
@@ -66,6 +71,10 @@ const Banner = () => {
                    Check out my project     
             </motion.a>
         </Container>
+        </Vortex>
+      </div>
+       
+
    )
 };
 

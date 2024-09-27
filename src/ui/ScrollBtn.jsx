@@ -24,7 +24,7 @@ const ScrollBtn = () => {
 
   return (
     <div className='fixed bottom-10 right-20 z-40 bg-darkText/40 text-lightText/80 hidden md:inline-block-md
-     p-2 rounded-full cursor-pointer hover:bg-black transition duration-300 scrollBtn'>
+     p-2 rounded-full cursor-pointer hover:bg-darkText transition duration-300 scrollBtn'>
         <FaArrowUp size={24} />
     </div>
   )

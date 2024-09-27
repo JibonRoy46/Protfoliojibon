@@ -13,7 +13,7 @@ import RightSide from './ui/RightSide';
 function App() {
 
   return (
-   <main className="font-bodyFont min-h-screen bg-primaryColor text-lightText">
+   <main className="font-bodyFont min-h-screen bg-primaryColor text-white">
       <Header/>
       <Banner/>
       <About/>

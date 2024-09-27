@@ -47,7 +47,7 @@ const SocialLinks = ({className}) => {
          >
            <span  className=' w-10 h-10 text-xl bg-designColor/10 border-[1px] inline-flex
             items-center justify-center rounded-full border-zinc-500 hover:border-darkText text-darkText
-             hover:bg-black'> 
+             hover:bg-white hover:text-black'> 
                 {item?.icon}
            </span>
          </motion.a>
