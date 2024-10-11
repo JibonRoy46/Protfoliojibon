@@ -33,7 +33,8 @@ const Skill = () => {
                 {skills.map((skill,index)=>(
                     <div 
                     key={index}
-                    className='flex flex-col items-center bg-lightText/50 px-4 py-3 rounded-lg shadow-lg'>
+                    className='flex flex-col items-center bg-lightText/50 px-4 py-3 rounded-lg shadow-lg 
+                     hover:text-black/80 hover:bg-slate-300'>
                         <div className=' mb-4'>{skill.icon} </div>
                         <span className='text-lg font-medium text-lime-500'>
                             <Typewriter
