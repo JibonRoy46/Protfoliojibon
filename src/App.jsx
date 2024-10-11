@@ -9,6 +9,7 @@ import ScrollBtn from "./ui/ScrollBtn";
 import { motion } from 'framer-motion';
 import LeftSide from './ui/LeftSide';
 import RightSide from './ui/RightSide';
+import Skill from "./ui/Skill";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <About/>
       <Experience/>
       <Project/>
+      <Skill/>
       <Archive/>
       <Contact/>
       

@@ -6,12 +6,14 @@ import { FaCode } from "react-icons/fa6";
 
 const About = () => {
     const textArray=[
+        {title:"Tailwind CSS", Link:"https://www.w3schools.com/js/"},
+        {title:"Bootstrap", Link:"https://www.w3schools.com/js/"},
         {title:"JavaScript", Link:"https://www.w3schools.com/js/"},
-        {title:"JavaScript", Link:"https://www.w3schools.com/js/"},
-        {title:"JavaScript", Link:"https://www.w3schools.com/js/"},
-        {title:"JavaScript", Link:"https://www.w3schools.com/js/"},
-        {title:"JavaScript", Link:"https://www.w3schools.com/js/"},
-        {title:"JavaScript", Link:"https://www.w3schools.com/js/"},
+        {title:"React js", Link:"https://www.w3schools.com/js/"},
+        {title:"Node js", Link:"https://www.w3schools.com/js/"},
+        {title:"Express js", Link:"https://www.w3schools.com/js/"},
+        {title:"MongoDB", Link:"https://www.w3schools.com/js/"},
+        {title:"Firebase", Link:"https://www.w3schools.com/js/"},
     ]
     return (
         <Container id="about"  className="py-10 lg:py-10 flex-col gap-8 xl:px-28">
